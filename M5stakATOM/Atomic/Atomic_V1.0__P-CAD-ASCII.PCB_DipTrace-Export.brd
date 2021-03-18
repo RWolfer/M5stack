@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="TOP" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -34,32 +34,34 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="2" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="5" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="ReferenceLC" color="13" fill="1" visible="no" active="yes"/>
-<layer number="50" name="ReferenceLS" color="12" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="ReferenceLC" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="ReferenceLS" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
@@ -72,123 +74,102 @@
 </layers>
 <board>
 <plain>
-<wire layer="20" width="0.12" x1="79.669" y1="119.817" x2="103.643" y2="119.817"/>
-<wire layer="20" width="0.12" x1="103.643" y1="119.817" x2="103.643" y2="71.733"/>
-<wire layer="20" width="0.12" x1="103.643" y1="71.733" x2="79.669" y2="71.733"/>
-<wire layer="20" width="0.12" x1="79.669" y1="71.733" x2="79.669" y2="119.817"/>
-<wire layer="21" width="0.2" x1="82.636" y1="75.38" x2="82.636" y2="85.8"/>
-<wire layer="21" width="0.2" x1="82.636" y1="85.8" x2="85.436" y2="85.8"/>
-<wire layer="21" width="0.2" x1="85.436" y1="75.38" x2="85.436" y2="85.8"/>
-<wire layer="21" width="0.2" x1="82.636" y1="75.38" x2="85.436" y2="75.38"/>
-<wire layer="21" width="0.2" x1="97.876" y1="88.34" x2="100.676" y2="88.34"/>
-<wire layer="21" width="0.2" x1="97.876" y1="75.38" x2="100.676" y2="75.38"/>
-<wire layer="21" width="0.2" x1="97.876" y1="75.38" x2="97.876" y2="88.34"/>
-<wire layer="21" width="0.2" x1="100.676" y1="75.38" x2="100.676" y2="88.34"/>
-<wire layer="21" width="0.2" x1="83.156" y1="109.4" x2="100.156" y2="109.4"/>
-<wire layer="21" width="0.2" x1="100.156" y1="109.4" x2="100.156" y2="111.9"/>
-<wire layer="21" width="0.2" x1="83.156" y1="111.9" x2="100.156" y2="111.9"/>
-<wire layer="21" width="0.2" x1="83.156" y1="109.4" x2="83.156" y2="111.9"/>
-<text x="87.556" y="76.9" size="0.74" layer="21" font="proportional" ratio="7" rot="R0" align="bottom-left" distance="92">GND</text>
-<text x="87.556" y="79.4" size="0.74" layer="21" font="proportional" ratio="7" rot="R0" align="bottom-left" distance="92">5V</text>
-<text x="87.592" y="81.962" size="0.74" layer="21" font="proportional" ratio="7" rot="R0" align="bottom-left" distance="92">SDA</text>
-<text x="87.567" y="84.552" size="0.74" layer="21" font="proportional" ratio="7" rot="R0" align="bottom-left" distance="92">SCL</text>
-<text x="93.556" y="87.1" size="0.74" layer="21" font="proportional" ratio="7" rot="R0" align="bottom-left" distance="92">3V3</text>
-<text x="94.381" y="85.3" size="0.74" layer="21" font="proportional" ratio="7" rot="R0" align="bottom-left" distance="92">22</text>
-<text x="94.381" y="82.725" size="0.74" layer="21" font="proportional" ratio="7" rot="R0" align="bottom-left" distance="92">19</text>
-<text x="94.406" y="80.175" size="0.74" layer="21" font="proportional" ratio="7" rot="R0" align="bottom-left" distance="92">23</text>
-<text x="94.406" y="77.475" size="0.74" layer="21" font="proportional" ratio="7" rot="R0" align="bottom-left" distance="92">33</text>
-<text x="94.374" y="84.146" size="0.74" layer="21" font="proportional" ratio="7" rot="R0" align="bottom-left" distance="92">Tx</text>
-<text x="94.374" y="81.606" size="0.74" layer="21" font="proportional" ratio="7" rot="R0" align="bottom-left" distance="92">Rx</text>
-<text x="93.891" y="79.041" size="0.74" layer="21" font="proportional" ratio="7" rot="R0" align="bottom-left" distance="92">Neo</text>
-<text x="93.706" y="76.325" size="0.74" layer="21" font="proportional" ratio="7" rot="R0" align="bottom-left" distance="92">Adc</text>
-<text x="83.656" y="109.9" size="1.48" layer="21" font="proportional" ratio="7" rot="R0" align="bottom-left" distance="92">B</text>
-<text x="87.556" y="109.9" size="1.48" layer="21" font="proportional" ratio="7" rot="R0" align="bottom-left" distance="92">A</text>
-<text x="94.956" y="109.9" size="1.48" layer="21" font="proportional" ratio="7" rot="R0" align="bottom-left" distance="92">V</text>
-<text x="98.856" y="109.9" size="1.48" layer="21" font="proportional" ratio="7" rot="R0" align="bottom-left" distance="92">G</text>
-<text x="82.231" y="86.8" size="1.727" layer="21" font="proportional" ratio="7" rot="R0" align="bottom-left" distance="92">Atomic</text>
-<wire layer="51" width="0.2" x1="82.006" y1="117.8" x2="83.306" y2="117.8" curve="180"/>
-<wire layer="51" width="0.2" x1="83.656" y1="88.8" x2="83.656" y2="96" curve="180"/>
-<wire layer="51" width="0.2" x1="92.656" y1="78.4" x2="92.656" y2="80.4" curve="180"/>
-<wire layer="51" width="0.2" x1="90.656" y1="80.4" x2="90.656" y2="78.4" curve="180"/>
-<wire layer="51" width="0.2" x1="87.106" y1="117.9" x2="88.206" y2="117.9" curve="180"/>
-<wire layer="51" width="0.2" x1="90.242" y1="74.986" x2="93.07" y2="74.986" curve="90"/>
-<wire layer="51" width="0.2" x1="100.006" y1="117.8" x2="101.306" y2="117.8" curve="180"/>
-<wire layer="51" width="0.2" x1="95.106" y1="117.9" x2="96.206" y2="117.9" curve="180"/>
-<wire layer="51" width="0.2" x1="85.256" y1="100.4" x2="85.256" y2="100.4"/>
-<wire layer="51" width="0.2" x1="101.256" y1="100.4" x2="101.256" y2="100.4"/>
-<wire layer="51" width="0.2" x1="99.656" y1="96" x2="99.656" y2="88.8" curve="180"/>
-<wire layer="51" width="0" x1="91.656" y1="84.4" x2="91.656" y2="84.725"/>
-<wire layer="51" width="0.2" x1="81.656" y1="117.4" x2="81.656" y2="117.8"/>
-<wire layer="51" width="0.2" x1="81.656" y1="117.8" x2="82.006" y2="117.8"/>
-<wire layer="51" width="0.2" x1="101.306" y1="117.8" x2="101.656" y2="117.8"/>
-<wire layer="51" width="0.2" x1="83.556" y1="118.4" x2="84.156" y2="118.4"/>
-<wire layer="51" width="0.2" x1="83.306" y1="118.15" x2="83.556" y2="118.4"/>
-<wire layer="51" width="0.2" x1="83.306" y1="117.8" x2="83.306" y2="118.15"/>
-<wire layer="51" width="0.2" x1="100.006" y1="117.8" x2="100.006" y2="118.15"/>
-<wire layer="51" width="0.2" x1="99.756" y1="118.4" x2="100.006" y2="118.15"/>
-<wire layer="51" width="0.2" x1="101.656" y1="83.8" x2="101.656" y2="88.8"/>
-<wire layer="51" width="0.2" x1="81.656" y1="88.8" x2="83.056" y2="88.8"/>
-<wire layer="51" width="0.2" x1="90.656" y1="78.4" x2="92.656" y2="78.4"/>
-<wire layer="51" width="0.2" x1="90.656" y1="80.4" x2="92.656" y2="80.4"/>
-<wire layer="51" width="0.2" x1="101.656" y1="74.8" x2="101.656" y2="79.5"/>
-<wire layer="51" width="0.2" x1="101.656" y1="79.5" x2="101.656" y2="83.8"/>
-<wire layer="51" width="0.2" x1="81.656" y1="85.89" x2="81.656" y2="88.8"/>
-<wire layer="51" width="0.2" x1="101.256" y1="74.4" x2="101.656" y2="74.8"/>
-<wire layer="51" width="0.2" x1="81.656" y1="75.6" x2="81.656" y2="76.643"/>
-<wire layer="51" width="0.2" x1="81.656" y1="76.643" x2="81.656" y2="85.89"/>
-<wire layer="51" width="0.2" x1="81.656" y1="74.8" x2="81.656" y2="75.6"/>
-<wire layer="51" width="0.2" x1="81.656" y1="74.8" x2="82.056" y2="74.4"/>
-<wire layer="51" width="0.2" x1="84.156" y1="118.4" x2="87.056" y2="118.4"/>
-<wire layer="51" width="0.2" x1="88.256" y1="118.4" x2="91.656" y2="118.4"/>
-<wire layer="51" width="0.2" x1="89.742" y1="74.986" x2="90.242" y2="74.986"/>
-<wire layer="51" width="0.2" x1="95.57" y1="74.986" x2="96.156" y2="74.4"/>
-<wire layer="51" width="0.2" x1="93.07" y1="74.986" x2="95.57" y2="74.986"/>
-<wire layer="51" width="0.2" x1="87.156" y1="74.4" x2="87.742" y2="74.986"/>
-<wire layer="51" width="0.2" x1="87.742" y1="74.986" x2="89.742" y2="74.986"/>
-<wire layer="51" width="0.2" x1="82.056" y1="74.4" x2="87.156" y2="74.4"/>
-<wire layer="51" width="0.2" x1="96.156" y1="74.4" x2="101.256" y2="74.4"/>
-<wire layer="51" width="0.2" x1="87.106" y1="117.9" x2="87.106" y2="118.35"/>
-<wire layer="51" width="0.2" x1="87.056" y1="118.4" x2="87.106" y2="118.35"/>
-<wire layer="51" width="0.2" x1="88.206" y1="117.9" x2="88.206" y2="118.35"/>
-<wire layer="51" width="0.2" x1="88.206" y1="118.35" x2="88.256" y2="118.4"/>
-<wire layer="51" width="0.2" x1="83.056" y1="88.8" x2="83.656" y2="88.8"/>
-<wire layer="51" width="0.2" x1="99.656" y1="88.8" x2="100.256" y2="88.8"/>
-<wire layer="51" width="0.2" x1="95.056" y1="118.4" x2="95.106" y2="118.35"/>
-<wire layer="51" width="0.2" x1="95.106" y1="117.9" x2="95.106" y2="118.35"/>
-<wire layer="51" width="0.2" x1="96.206" y1="118.35" x2="96.256" y2="118.4"/>
-<wire layer="51" width="0.2" x1="96.206" y1="117.9" x2="96.206" y2="118.35"/>
-<wire layer="51" width="0.2" x1="99.156" y1="118.4" x2="99.756" y2="118.4"/>
-<wire layer="51" width="0.2" x1="91.656" y1="118.4" x2="95.056" y2="118.4"/>
-<wire layer="51" width="0.2" x1="96.256" y1="118.4" x2="99.156" y2="118.4"/>
-<wire layer="51" width="0.2" x1="100.256" y1="88.8" x2="101.656" y2="88.8"/>
-<wire layer="51" width="0.2" x1="81.656" y1="112.4" x2="82.656" y2="111.4"/>
-<wire layer="51" width="0.2" x1="82.656" y1="105.4" x2="82.656" y2="111.4"/>
-<wire layer="51" width="0.2" x1="81.656" y1="104.4" x2="82.656" y2="105.4"/>
-<wire layer="51" width="0.2" x1="81.656" y1="103.65" x2="81.656" y2="104.4"/>
-<wire layer="51" width="0.2" x1="81.656" y1="112.4" x2="81.656" y2="117.4"/>
-<wire layer="51" width="0.2" x1="101.656" y1="112.4" x2="101.656" y2="117.8"/>
-<wire layer="51" width="0.2" x1="101.656" y1="103.65" x2="101.656" y2="104.4"/>
-<wire layer="51" width="0.2" x1="100.656" y1="105.4" x2="101.656" y2="104.4"/>
-<wire layer="51" width="0.2" x1="100.656" y1="105.4" x2="100.656" y2="111.4"/>
-<wire layer="51" width="0.2" x1="100.656" y1="111.4" x2="101.656" y2="112.4"/>
-<wire layer="51" width="0.2" x1="83.056" y1="96" x2="83.656" y2="96"/>
-<wire layer="51" width="0.2" x1="81.656" y1="96" x2="83.056" y2="96"/>
-<wire layer="51" width="0.2" x1="81.656" y1="96" x2="81.656" y2="103.65"/>
-<wire layer="51" width="0.2" x1="101.656" y1="96" x2="101.656" y2="103.65"/>
-<wire layer="51" width="0.2" x1="100.256" y1="96" x2="101.656" y2="96"/>
-<wire layer="51" width="0.2" x1="99.656" y1="96" x2="100.256" y2="96"/>
+<wire x1="-9.02" y1="-9.02" x2="-9.02" y2="1.4" width="0.2" layer="21"/>
+<wire x1="-9.02" y1="1.4" x2="-6.22" y2="1.4" width="0.2" layer="21"/>
+<wire x1="-6.22" y1="-9.02" x2="-6.22" y2="1.4" width="0.2" layer="21"/>
+<wire x1="-9.02" y1="-9.02" x2="-6.22" y2="-9.02" width="0.2" layer="21"/>
+<wire x1="6.22" y1="3.94" x2="9.02" y2="3.94" width="0.2" layer="21"/>
+<wire x1="6.22" y1="-9.02" x2="9.02" y2="-9.02" width="0.2" layer="21"/>
+<wire x1="6.22" y1="-9.02" x2="6.22" y2="3.94" width="0.2" layer="21"/>
+<wire x1="9.02" y1="-9.02" x2="9.02" y2="3.94" width="0.2" layer="21"/>
+<wire x1="-8.5" y1="25" x2="8.5" y2="25" width="0.2" layer="21"/>
+<wire x1="8.5" y1="25" x2="8.5" y2="27.5" width="0.2" layer="21"/>
+<wire x1="-8.5" y1="27.5" x2="8.5" y2="27.5" width="0.2" layer="21"/>
+<wire x1="-8.5" y1="25" x2="-8.5" y2="27.5" width="0.2" layer="21"/>
+<text x="-4.1" y="-7.5" size="0.74" layer="21" ratio="7" distance="92">GND</text>
+<text x="-4.1" y="-5" size="0.74" layer="21" ratio="7" distance="92">5V</text>
+<text x="-4.064" y="-2.438" size="0.74" layer="21" ratio="7" distance="92">SDA</text>
+<text x="-4.089" y="0.152" size="0.74" layer="21" ratio="7" distance="92">SCL</text>
+<text x="1.9" y="2.7" size="0.74" layer="21" ratio="7" distance="92">3V3</text>
+<text x="2.725" y="0.9" size="0.74" layer="21" ratio="7" distance="92">22</text>
+<text x="2.725" y="-1.675" size="0.74" layer="21" ratio="7" distance="92">19</text>
+<text x="2.75" y="-4.225" size="0.74" layer="21" ratio="7" distance="92">23</text>
+<text x="2.75" y="-6.925" size="0.74" layer="21" ratio="7" distance="92">33</text>
+<text x="2.718" y="-0.254" size="0.74" layer="21" ratio="7" distance="92">Tx</text>
+<text x="2.718" y="-2.794" size="0.74" layer="21" ratio="7" distance="92">Rx</text>
+<text x="2.235" y="-5.359" size="0.74" layer="21" ratio="7" distance="92">Neo</text>
+<text x="2.05" y="-8.075" size="0.74" layer="21" ratio="7" distance="92">Adc</text>
+<text x="-8" y="25.5" size="1.48" layer="21" ratio="7" distance="92">B</text>
+<text x="-4.1" y="25.5" size="1.48" layer="21" ratio="7" distance="92">A</text>
+<text x="3.3" y="25.5" size="1.48" layer="21" ratio="7" distance="92">V</text>
+<text x="7.2" y="25.5" size="1.48" layer="21" ratio="7" distance="92">G</text>
+<text x="-9.425" y="2.4" size="1.727" layer="21" ratio="7" distance="92">Atomic</text>
+<wire x1="-9.65" y1="33.4" x2="-8.35" y2="33.4" width="0.2" layer="20" curve="180"/>
+<wire x1="-8" y1="4.4" x2="-8" y2="11.6" width="0.2" layer="20" curve="180"/>
+<wire x1="1" y1="-6" x2="1" y2="-4" width="0.2" layer="20" curve="180"/>
+<wire x1="-1" y1="-4" x2="-1" y2="-6" width="0.2" layer="20" curve="180"/>
+<wire x1="-4.55" y1="33.5" x2="-3.45" y2="33.5" width="0.2" layer="20" curve="180"/>
+<wire x1="-1.414" y1="-9.414" x2="1.414" y2="-9.414" width="0.2" layer="20" curve="90"/>
+<wire x1="8.35" y1="33.4" x2="9.65" y2="33.4" width="0.2" layer="20" curve="180"/>
+<wire x1="3.45" y1="33.5" x2="4.55" y2="33.5" width="0.2" layer="20" curve="180"/>
+<wire x1="8" y1="11.6" x2="8" y2="4.4" width="0.2" layer="20" curve="180"/>
+<wire x1="-10" y1="33.4" x2="-9.65" y2="33.4" width="0.2" layer="20"/>
+<wire x1="9.65" y1="33.4" x2="10" y2="33.4" width="0.2" layer="20"/>
+<wire x1="-8.35" y1="33.75" x2="-8.1" y2="34" width="0.2" layer="20"/>
+<wire x1="-8.35" y1="33.4" x2="-8.35" y2="33.75" width="0.2" layer="20"/>
+<wire x1="8.35" y1="33.4" x2="8.35" y2="33.75" width="0.2" layer="20"/>
+<wire x1="8.1" y1="34" x2="8.35" y2="33.75" width="0.2" layer="20"/>
+<wire x1="-10" y1="4.4" x2="-8" y2="4.4" width="0.2" layer="20"/>
+<wire x1="-1" y1="-6" x2="1" y2="-6" width="0.2" layer="20"/>
+<wire x1="-1" y1="-4" x2="1" y2="-4" width="0.2" layer="20"/>
+<wire x1="10" y1="-9.6" x2="10" y2="4.4" width="0.2" layer="20"/>
+<wire x1="9.6" y1="-10" x2="10" y2="-9.6" width="0.2" layer="20"/>
+<wire x1="-10" y1="-9.6" x2="-10" y2="4.4" width="0.2" layer="20"/>
+<wire x1="-10" y1="-9.6" x2="-9.6" y2="-10" width="0.2" layer="20"/>
+<wire x1="-8.1" y1="34" x2="-4.6" y2="34" width="0.2" layer="20"/>
+<wire x1="3.914" y1="-9.414" x2="4.5" y2="-10" width="0.2" layer="20"/>
+<wire x1="1.414" y1="-9.414" x2="3.914" y2="-9.414" width="0.2" layer="20"/>
+<wire x1="-4.5" y1="-10" x2="-3.914" y2="-9.414" width="0.2" layer="20"/>
+<wire x1="-3.914" y1="-9.414" x2="-1.414" y2="-9.414" width="0.2" layer="20"/>
+<wire x1="-9.6" y1="-10" x2="-4.5" y2="-10" width="0.2" layer="20"/>
+<wire x1="4.5" y1="-10" x2="9.6" y2="-10" width="0.2" layer="20"/>
+<wire x1="-4.55" y1="33.5" x2="-4.55" y2="33.95" width="0.2" layer="20"/>
+<wire x1="-4.6" y1="34" x2="-4.55" y2="33.95" width="0.2" layer="20"/>
+<wire x1="-3.45" y1="33.5" x2="-3.45" y2="33.95" width="0.2" layer="20"/>
+<wire x1="-3.45" y1="33.95" x2="-3.4" y2="34" width="0.2" layer="20"/>
+<wire x1="3.4" y1="34" x2="3.45" y2="33.95" width="0.2" layer="20"/>
+<wire x1="3.45" y1="33.5" x2="3.45" y2="33.95" width="0.2" layer="20"/>
+<wire x1="4.55" y1="33.95" x2="4.6" y2="34" width="0.2" layer="20"/>
+<wire x1="4.55" y1="33.5" x2="4.55" y2="33.95" width="0.2" layer="20"/>
+<wire x1="-3.4" y1="34" x2="3.4" y2="34" width="0.2" layer="20"/>
+<wire x1="4.6" y1="34" x2="8.1" y2="34" width="0.2" layer="20"/>
+<wire x1="8" y1="4.4" x2="10" y2="4.4" width="0.2" layer="20"/>
+<wire x1="-10" y1="28" x2="-9" y2="27" width="0.2" layer="20"/>
+<wire x1="-9" y1="21" x2="-9" y2="27" width="0.2" layer="20"/>
+<wire x1="-10" y1="20" x2="-9" y2="21" width="0.2" layer="20"/>
+<wire x1="-10" y1="28" x2="-10" y2="33.4" width="0.2" layer="20"/>
+<wire x1="10" y1="28" x2="10" y2="33.4" width="0.2" layer="20"/>
+<wire x1="9" y1="21" x2="10" y2="20" width="0.2" layer="20"/>
+<wire x1="9" y1="21" x2="9" y2="27" width="0.2" layer="20"/>
+<wire x1="9" y1="27" x2="10" y2="28" width="0.2" layer="20"/>
+<wire x1="-10" y1="11.6" x2="-8" y2="11.6" width="0.2" layer="20"/>
+<wire x1="-10" y1="11.6" x2="-10" y2="20" width="0.2" layer="20"/>
+<wire x1="10" y1="11.6" x2="10" y2="20" width="0.2" layer="20"/>
+<wire x1="8" y1="11.6" x2="10" y2="11.6" width="0.2" layer="20"/>
+<circle x="-8" y="16" radius="1.6" width="0.2" layer="20"/>
+<circle x="8" y="16" radius="1.6" width="0.2" layer="20"/>
 </plain>
 <libraries>
 <library name="common">
 <packages>
-<package name="FreePad">
-<pad name="1" x="0" y="0" drill="4.2" diameter="4.2" rot="R0" stop="no" thermals="no"/>
-<circle layer="30" x="0" y="0" radius="0" width="0"/>
-<circle layer="29" x="0" y="0" radius="0" width="0"/>
+<package name="FREEPAD">
+<pad name="1" x="0" y="0" drill="4.2" diameter="4.2" stop="no" thermals="no"/>
+<circle x="0" y="0" radius="0" width="0" layer="30"/>
+<circle x="0" y="0" radius="0" width="0" layer="29"/>
 </package>
-<package name="FreePad_FreePad1">
-<pad name="1" x="0" y="0" drill="0.85" diameter="1.4" rot="R0" stop="no" thermals="no"/>
-<polygon layer="1" width="0.002">
+<package name="FREEPAD_FREEPAD1">
+<pad name="1" x="0" y="0" drill="0.85" diameter="1.4" stop="no" thermals="no"/>
+<polygon width="0.002" layer="1">
 <vertex x="-0.699" y="0.35"/>
 <vertex x="-0.687" y="0.44"/>
 <vertex x="-0.652" y="0.524"/>
@@ -218,7 +199,7 @@
 <vertex x="-0.687" y="-0.44"/>
 <vertex x="-0.699" y="-0.349"/>
 </polygon>
-<polygon layer="16" width="0.002">
+<polygon width="0.002" layer="16">
 <vertex x="-0.699" y="0.35"/>
 <vertex x="-0.687" y="0.44"/>
 <vertex x="-0.652" y="0.524"/>
@@ -248,7 +229,7 @@
 <vertex x="-0.687" y="-0.44"/>
 <vertex x="-0.699" y="-0.349"/>
 </polygon>
-<polygon layer="30" width="0.002">
+<polygon width="0.002" layer="30">
 <vertex x="-0.7" y="0.35"/>
 <vertex x="-0.688" y="0.441"/>
 <vertex x="-0.653" y="0.525"/>
@@ -278,7 +259,7 @@
 <vertex x="-0.688" y="-0.441"/>
 <vertex x="-0.7" y="-0.35"/>
 </polygon>
-<polygon layer="29" width="0.002">
+<polygon width="0.002" layer="29">
 <vertex x="-0.7" y="0.35"/>
 <vertex x="-0.688" y="0.441"/>
 <vertex x="-0.653" y="0.525"/>
@@ -309,14 +290,14 @@
 <vertex x="-0.7" y="-0.35"/>
 </polygon>
 </package>
-<package name="FreePad_FreePad10">
-<pad name="1" x="0" y="0" drill="2" diameter="2" rot="R0" stop="no" thermals="no"/>
-<circle layer="30" x="0" y="0" radius="0" width="0"/>
-<circle layer="29" x="0" y="0" radius="0" width="0"/>
+<package name="FREEPAD_FREEPAD10">
+<pad name="1" x="0" y="0" drill="2" diameter="2" stop="no" thermals="no"/>
+<circle x="0" y="0" radius="0" width="0" layer="30"/>
+<circle x="0" y="0" radius="0" width="0" layer="29"/>
 </package>
-<package name="FreePad_FreePad11">
-<pad name="1" x="0" y="0" drill="0.85" diameter="1.2" rot="R0" stop="no" thermals="no"/>
-<polygon layer="1" width="0.002">
+<package name="FREEPAD_FREEPAD11">
+<pad name="1" x="0" y="0" drill="0.85" diameter="1.2" stop="no" thermals="no"/>
+<polygon width="0.002" layer="1">
 <vertex x="-0.599" y="0.3"/>
 <vertex x="-0.589" y="0.377"/>
 <vertex x="-0.559" y="0.449"/>
@@ -346,7 +327,7 @@
 <vertex x="-0.589" y="-0.377"/>
 <vertex x="-0.599" y="-0.299"/>
 </polygon>
-<polygon layer="16" width="0.002">
+<polygon width="0.002" layer="16">
 <vertex x="-0.599" y="0.3"/>
 <vertex x="-0.589" y="0.377"/>
 <vertex x="-0.559" y="0.449"/>
@@ -376,7 +357,7 @@
 <vertex x="-0.589" y="-0.377"/>
 <vertex x="-0.599" y="-0.299"/>
 </polygon>
-<polygon layer="30" width="0.002">
+<polygon width="0.002" layer="30">
 <vertex x="-0.6" y="0.3"/>
 <vertex x="-0.59" y="0.378"/>
 <vertex x="-0.56" y="0.45"/>
@@ -406,7 +387,7 @@
 <vertex x="-0.59" y="-0.378"/>
 <vertex x="-0.6" y="-0.3"/>
 </polygon>
-<polygon layer="29" width="0.002">
+<polygon width="0.002" layer="29">
 <vertex x="-0.6" y="0.3"/>
 <vertex x="-0.59" y="0.378"/>
 <vertex x="-0.56" y="0.45"/>
@@ -437,19 +418,19 @@
 <vertex x="-0.6" y="-0.3"/>
 </polygon>
 </package>
-<package name="FreePad_FreePad18">
-<pad name="1" x="0" y="0" drill="0.85" shape="square" diameter="1.2" rot="R0" stop="no" thermals="no"/>
-<rectangle x1="-0.6" y1="0.6" x2="0.6" y2="-0.6" layer="29" rot="R0"/>
-<rectangle x1="-0.6" y1="0.6" x2="0.6" y2="-0.6" layer="30" rot="R0"/>
+<package name="FREEPAD_FREEPAD18">
+<pad name="1" x="0" y="0" drill="0.85" diameter="1.2" shape="square" stop="no" thermals="no"/>
+<rectangle x1="-0.6" y1="-0.6" x2="0.6" y2="0.6" layer="29"/>
+<rectangle x1="-0.6" y1="-0.6" x2="0.6" y2="0.6" layer="30"/>
 </package>
-<package name="FreePad_FreePad66">
-<pad name="1" x="0" y="0" drill="1.3" diameter="1.8" rot="R0" stop="no" thermals="no"/>
-<circle layer="30" x="0" y="0" radius="0" width="0"/>
-<circle layer="29" x="0" y="0" radius="0" width="0"/>
+<package name="FREEPAD_FREEPAD66">
+<pad name="1" x="0" y="0" drill="1.3" diameter="1.8" stop="no" thermals="no"/>
+<circle x="0" y="0" radius="0" width="0" layer="30"/>
+<circle x="0" y="0" radius="0" width="0" layer="29"/>
 </package>
-<package name="FreePad_FreePad67">
-<pad name="1" x="0" y="0" drill="1.3" diameter="1.8" rot="R0" stop="no" thermals="no"/>
-<polygon layer="1" width="0.002">
+<package name="FREEPAD_FREEPAD67">
+<pad name="1" x="0" y="0" drill="1.3" diameter="1.8" stop="no" thermals="no"/>
+<polygon width="0.002" layer="1">
 <vertex x="-0.899" y="0.45"/>
 <vertex x="-0.884" y="0.566"/>
 <vertex x="-0.839" y="0.674"/>
@@ -479,7 +460,7 @@
 <vertex x="-0.884" y="-0.566"/>
 <vertex x="-0.899" y="-0.449"/>
 </polygon>
-<polygon layer="16" width="0.002">
+<polygon width="0.002" layer="16">
 <vertex x="-0.899" y="0.45"/>
 <vertex x="-0.884" y="0.566"/>
 <vertex x="-0.839" y="0.674"/>
@@ -509,7 +490,7 @@
 <vertex x="-0.884" y="-0.566"/>
 <vertex x="-0.899" y="-0.449"/>
 </polygon>
-<polygon layer="30" width="0.002">
+<polygon width="0.002" layer="30">
 <vertex x="-0.9" y="0.45"/>
 <vertex x="-0.885" y="0.566"/>
 <vertex x="-0.84" y="0.675"/>
@@ -539,7 +520,7 @@
 <vertex x="-0.885" y="-0.566"/>
 <vertex x="-0.9" y="-0.45"/>
 </polygon>
-<polygon layer="29" width="0.002">
+<polygon width="0.002" layer="29">
 <vertex x="-0.9" y="0.45"/>
 <vertex x="-0.885" y="0.566"/>
 <vertex x="-0.84" y="0.675"/>
@@ -570,21 +551,23 @@
 <vertex x="-0.9" y="-0.45"/>
 </polygon>
 </package>
-<package name="FreePad_FreePad69">
-<pad name="1" x="0" y="0" drill="1.3" shape="square" diameter="1.8" rot="R0" stop="no" thermals="no"/>
-<rectangle x1="-0.9" y1="0.9" x2="0.9" y2="-0.9" layer="29" rot="R0"/>
-<rectangle x1="-0.9" y1="0.9" x2="0.9" y2="-0.9" layer="30" rot="R0"/>
+<package name="FREEPAD_FREEPAD69">
+<pad name="1" x="0" y="0" drill="1.3" diameter="1.8" shape="square" stop="no" thermals="no"/>
+<rectangle x1="-0.9" y1="-0.9" x2="0.9" y2="0.9" layer="29"/>
+<rectangle x1="-0.9" y1="-0.9" x2="0.9" y2="0.9" layer="30"/>
 </package>
-<package name="FreePad_FreePad74">
-<pad name="1" x="0" y="0" diameter="0" rot="R0" stop="no" thermals="no"/>
-<circle layer="30" x="0" y="0" radius="0" width="0"/>
-<circle layer="29" x="0" y="0" radius="0" width="0"/>
+<package name="FREEPAD_FREEPAD74">
+<pad name="1" x="0" y="0" drill="0" stop="no" thermals="no"/>
+<circle x="0" y="0" radius="0" width="0" layer="30"/>
+<circle x="0" y="0" radius="0" width="0" layer="29"/>
 </package>
 </packages>
 </library>
 </libraries>
-<attributes/>
-<variantdefs/>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
 <classes>
 <class number="0" name="Default" width="0.33" drill="0">
 <clearance class="0" value="0.33"/>
@@ -660,138 +643,234 @@
 <param name="useDiameter" value="29"/>
 <param name="maxErrors" value="50"/>
 </designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="a"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes">
+</pass>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes">
+</pass>
+<pass name="Optimize1" refer="Default" active="yes">
+<param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
+</pass>
+<pass name="Optimize2" refer="Optimize1" active="yes">
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+</pass>
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
+</pass>
+</autorouter>
 <elements>
-<element name="FreePad0" library="common" package="FreePad" value="FREEPAD" x="91.656" y="84.4" rot="R0"/>
-<element name="FreePad1" library="common" package="FreePad_FreePad1" value="FREEPAD" x="86.576" y="77.35" rot="R180"/>
-<element name="FreePad2" library="common" package="FreePad_FreePad1" value="FREEPAD" x="96.736" y="77.35" rot="R180"/>
-<element name="FreePad3" library="common" package="FreePad_FreePad1" value="FREEPAD" x="86.576" y="79.89" rot="R180"/>
-<element name="FreePad4" library="common" package="FreePad_FreePad1" value="FREEPAD" x="96.736" y="79.89" rot="R180"/>
-<element name="FreePad5" library="common" package="FreePad_FreePad1" value="FREEPAD" x="86.576" y="82.43" rot="R180"/>
-<element name="FreePad6" library="common" package="FreePad_FreePad1" value="FREEPAD" x="96.736" y="82.43" rot="R180"/>
-<element name="FreePad7" library="common" package="FreePad_FreePad1" value="FREEPAD" x="86.576" y="84.97" rot="R180"/>
-<element name="FreePad8" library="common" package="FreePad_FreePad1" value="FREEPAD" x="96.736" y="84.97" rot="R180"/>
-<element name="FreePad9" library="common" package="FreePad_FreePad1" value="FREEPAD" x="96.736" y="87.51" rot="R180"/>
-<element name="FreePad10" library="common" package="FreePad_FreePad10" value="FREEPAD" x="91.656" y="76.4" rot="R0"/>
-<element name="FreePad11" library="common" package="FreePad_FreePad11" value="FREEPAD" x="84.036" y="84.4" rot="R180"/>
-<element name="FreePad12" library="common" package="FreePad_FreePad11" value="FREEPAD" x="84.036" y="81.86" rot="R180"/>
-<element name="FreePad13" library="common" package="FreePad_FreePad11" value="FREEPAD" x="99.276" y="76.78" rot="R0"/>
-<element name="FreePad14" library="common" package="FreePad_FreePad11" value="FREEPAD" x="99.276" y="79.32" rot="R0"/>
-<element name="FreePad15" library="common" package="FreePad_FreePad11" value="FREEPAD" x="99.276" y="81.86" rot="R0"/>
-<element name="FreePad16" library="common" package="FreePad_FreePad11" value="FREEPAD" x="99.276" y="84.4" rot="R0"/>
-<element name="FreePad17" library="common" package="FreePad_FreePad11" value="FREEPAD" x="99.276" y="86.94" rot="R0"/>
-<element name="FreePad18" library="common" package="FreePad_FreePad18" value="FREEPAD" x="84.036" y="79.32" rot="R180"/>
-<element name="FreePad19" library="common" package="FreePad_FreePad11" value="FREEPAD" x="84.036" y="76.78" rot="R180"/>
-<element name="FreePad20" library="common" package="FreePad_FreePad1" value="FREEPAD" x="89.116" y="95.13" rot="R180"/>
-<element name="FreePad21" library="common" package="FreePad_FreePad1" value="FREEPAD" x="89.116" y="92.59" rot="R180"/>
-<element name="FreePad22" library="common" package="FreePad_FreePad1" value="FREEPAD" x="89.116" y="90.05" rot="R0"/>
-<element name="FreePad23" library="common" package="FreePad_FreePad1" value="FREEPAD" x="86.576" y="112.91" rot="R0"/>
-<element name="FreePad24" library="common" package="FreePad_FreePad1" value="FREEPAD" x="84.036" y="112.91" rot="R0"/>
-<element name="FreePad25" library="common" package="FreePad_FreePad1" value="FREEPAD" x="91.656" y="90.05" rot="R180"/>
-<element name="FreePad26" library="common" package="FreePad_FreePad1" value="FREEPAD" x="91.656" y="112.91" rot="R0"/>
-<element name="FreePad27" library="common" package="FreePad_FreePad1" value="FREEPAD" x="89.116" y="112.91" rot="R0"/>
-<element name="FreePad28" library="common" package="FreePad_FreePad1" value="FREEPAD" x="91.656" y="107.83" rot="R0"/>
-<element name="FreePad29" library="common" package="FreePad_FreePad1" value="FREEPAD" x="89.116" y="107.83" rot="R0"/>
-<element name="FreePad30" library="common" package="FreePad_FreePad1" value="FREEPAD" x="86.576" y="107.83" rot="R0"/>
-<element name="FreePad31" library="common" package="FreePad_FreePad1" value="FREEPAD" x="84.036" y="107.83" rot="R0"/>
-<element name="FreePad32" library="common" package="FreePad_FreePad1" value="FREEPAD" x="91.656" y="105.29" rot="R0"/>
-<element name="FreePad33" library="common" package="FreePad_FreePad1" value="FREEPAD" x="89.116" y="105.29" rot="R0"/>
-<element name="FreePad34" library="common" package="FreePad_FreePad1" value="FREEPAD" x="86.576" y="105.29" rot="R0"/>
-<element name="FreePad35" library="common" package="FreePad_FreePad1" value="FREEPAD" x="84.036" y="105.29" rot="R0"/>
-<element name="FreePad36" library="common" package="FreePad_FreePad1" value="FREEPAD" x="91.656" y="102.75" rot="R0"/>
-<element name="FreePad37" library="common" package="FreePad_FreePad1" value="FREEPAD" x="89.116" y="102.75" rot="R0"/>
-<element name="FreePad38" library="common" package="FreePad_FreePad1" value="FREEPAD" x="91.656" y="100.21" rot="R0"/>
-<element name="FreePad39" library="common" package="FreePad_FreePad1" value="FREEPAD" x="89.116" y="100.21" rot="R0"/>
-<element name="FreePad40" library="common" package="FreePad_FreePad1" value="FREEPAD" x="91.656" y="97.67" rot="R0"/>
-<element name="FreePad41" library="common" package="FreePad_FreePad1" value="FREEPAD" x="89.116" y="97.67" rot="R0"/>
-<element name="FreePad42" library="common" package="FreePad_FreePad1" value="FREEPAD" x="91.656" y="92.59" rot="R0"/>
-<element name="FreePad43" library="common" package="FreePad_FreePad1" value="FREEPAD" x="91.656" y="95.13" rot="R0"/>
-<element name="FreePad44" library="common" package="FreePad_FreePad1" value="FREEPAD" x="89.116" y="115.45" rot="R0"/>
-<element name="FreePad45" library="common" package="FreePad_FreePad1" value="FREEPAD" x="91.656" y="115.45" rot="R0"/>
-<element name="FreePad46" library="common" package="FreePad_FreePad1" value="FREEPAD" x="84.036" y="115.45" rot="R0"/>
-<element name="FreePad47" library="common" package="FreePad_FreePad1" value="FREEPAD" x="86.576" y="115.45" rot="R0"/>
-<element name="FreePad48" library="common" package="FreePad_FreePad1" value="FREEPAD" x="94.196" y="97.67" rot="R180"/>
-<element name="FreePad49" library="common" package="FreePad_FreePad1" value="FREEPAD" x="94.196" y="100.21" rot="R180"/>
-<element name="FreePad50" library="common" package="FreePad_FreePad1" value="FREEPAD" x="94.196" y="102.75" rot="R180"/>
-<element name="FreePad51" library="common" package="FreePad_FreePad1" value="FREEPAD" x="99.276" y="105.29" rot="R180"/>
-<element name="FreePad52" library="common" package="FreePad_FreePad1" value="FREEPAD" x="96.736" y="105.29" rot="R180"/>
-<element name="FreePad53" library="common" package="FreePad_FreePad1" value="FREEPAD" x="94.196" y="105.29" rot="R180"/>
-<element name="FreePad54" library="common" package="FreePad_FreePad1" value="FREEPAD" x="99.276" y="107.83" rot="R180"/>
-<element name="FreePad55" library="common" package="FreePad_FreePad1" value="FREEPAD" x="96.736" y="107.83" rot="R180"/>
-<element name="FreePad56" library="common" package="FreePad_FreePad1" value="FREEPAD" x="94.196" y="107.83" rot="R180"/>
-<element name="FreePad57" library="common" package="FreePad_FreePad1" value="FREEPAD" x="94.196" y="112.91" rot="R180"/>
-<element name="FreePad58" library="common" package="FreePad_FreePad1" value="FREEPAD" x="99.276" y="112.91" rot="R180"/>
-<element name="FreePad59" library="common" package="FreePad_FreePad1" value="FREEPAD" x="96.736" y="112.91" rot="R180"/>
-<element name="FreePad60" library="common" package="FreePad_FreePad1" value="FREEPAD" x="94.196" y="90.05" rot="R180"/>
-<element name="FreePad61" library="common" package="FreePad_FreePad1" value="FREEPAD" x="94.196" y="92.59" rot="R0"/>
-<element name="FreePad62" library="common" package="FreePad_FreePad1" value="FREEPAD" x="94.196" y="95.13" rot="R0"/>
-<element name="FreePad63" library="common" package="FreePad_FreePad1" value="FREEPAD" x="96.736" y="115.45" rot="R180"/>
-<element name="FreePad64" library="common" package="FreePad_FreePad1" value="FREEPAD" x="99.276" y="115.45" rot="R180"/>
-<element name="FreePad65" library="common" package="FreePad_FreePad1" value="FREEPAD" x="94.196" y="115.45" rot="R180"/>
-<element name="FreePad66" library="common" package="FreePad_FreePad66" value="FREEPAD" x="97.596" y="110.7" rot="R270"/>
-<element name="FreePad67" library="common" package="FreePad_FreePad67" value="FREEPAD" x="85.716" y="110.7" rot="R270"/>
-<element name="FreePad68" library="common" package="FreePad_FreePad67" value="FREEPAD" x="89.676" y="110.7" rot="R270"/>
-<element name="FreePad69" library="common" package="FreePad_FreePad69" value="FREEPAD" x="93.636" y="110.7" rot="R270"/>
-<element name="FreePad70" library="common" package="FreePad_FreePad1" value="FREEPAD" x="86.576" y="102.75" rot="R0"/>
-<element name="FreePad71" library="common" package="FreePad_FreePad1" value="FREEPAD" x="96.736" y="102.75" rot="R0"/>
-<element name="FreePad72" library="common" package="FreePad_FreePad1" value="FREEPAD" x="86.576" y="97.67" rot="R0"/>
-<element name="FreePad73" library="common" package="FreePad_FreePad1" value="FREEPAD" x="96.736" y="97.67" rot="R180"/>
-<element name="FreePad74" library="common" package="FreePad_FreePad74" value="FREEPAD" x="91.656" y="76.4" rot="R0"/>
-<element name="FreePad75" library="common" package="FreePad_FreePad74" value="FREEPAD" x="91.656" y="76.4" rot="R180"/>
+<element name="FREEPAD0" library="common" package="FREEPAD" value="FREEPAD" x="0" y="0"/>
+<element name="FREEPAD1" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="-5.08" y="-7.05" rot="R180"/>
+<element name="FREEPAD2" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="5.08" y="-7.05" rot="R180"/>
+<element name="FREEPAD3" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="-5.08" y="-4.51" rot="R180"/>
+<element name="FREEPAD4" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="5.08" y="-4.51" rot="R180"/>
+<element name="FREEPAD5" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="-5.08" y="-1.97" rot="R180"/>
+<element name="FREEPAD6" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="5.08" y="-1.97" rot="R180"/>
+<element name="FREEPAD7" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="-5.08" y="0.57" rot="R180"/>
+<element name="FREEPAD8" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="5.08" y="0.57" rot="R180"/>
+<element name="FREEPAD9" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="5.08" y="3.11" rot="R180"/>
+<element name="FREEPAD10" library="common" package="FREEPAD_FREEPAD10" value="FREEPAD" x="0" y="-8"/>
+<element name="FREEPAD11" library="common" package="FREEPAD_FREEPAD11" value="FREEPAD" x="-7.62" y="0" rot="R180"/>
+<element name="FREEPAD12" library="common" package="FREEPAD_FREEPAD11" value="FREEPAD" x="-7.62" y="-2.54" rot="R180"/>
+<element name="FREEPAD13" library="common" package="FREEPAD_FREEPAD11" value="FREEPAD" x="7.62" y="-7.62"/>
+<element name="FREEPAD14" library="common" package="FREEPAD_FREEPAD11" value="FREEPAD" x="7.62" y="-5.08"/>
+<element name="FREEPAD15" library="common" package="FREEPAD_FREEPAD11" value="FREEPAD" x="7.62" y="-2.54"/>
+<element name="FREEPAD16" library="common" package="FREEPAD_FREEPAD11" value="FREEPAD" x="7.62" y="0"/>
+<element name="FREEPAD17" library="common" package="FREEPAD_FREEPAD11" value="FREEPAD" x="7.62" y="2.54"/>
+<element name="FREEPAD18" library="common" package="FREEPAD_FREEPAD18" value="FREEPAD" x="-7.62" y="-5.08" rot="R180"/>
+<element name="FREEPAD19" library="common" package="FREEPAD_FREEPAD11" value="FREEPAD" x="-7.62" y="-7.62" rot="R180"/>
+<element name="FREEPAD20" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="-2.54" y="10.73" rot="R180"/>
+<element name="FREEPAD21" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="-2.54" y="8.19" rot="R180"/>
+<element name="FREEPAD22" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="-2.54" y="5.65"/>
+<element name="FREEPAD23" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="-5.08" y="28.51"/>
+<element name="FREEPAD24" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="-7.62" y="28.51"/>
+<element name="FREEPAD25" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="0" y="5.65" rot="R180"/>
+<element name="FREEPAD26" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="0" y="28.51"/>
+<element name="FREEPAD27" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="-2.54" y="28.51"/>
+<element name="FREEPAD28" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="0" y="23.43"/>
+<element name="FREEPAD29" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="-2.54" y="23.43"/>
+<element name="FREEPAD30" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="-5.08" y="23.43"/>
+<element name="FREEPAD31" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="-7.62" y="23.43"/>
+<element name="FREEPAD32" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="0" y="20.89"/>
+<element name="FREEPAD33" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="-2.54" y="20.89"/>
+<element name="FREEPAD34" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="-5.08" y="20.89"/>
+<element name="FREEPAD35" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="-7.62" y="20.89"/>
+<element name="FREEPAD36" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="0" y="18.35"/>
+<element name="FREEPAD37" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="-2.54" y="18.35"/>
+<element name="FREEPAD38" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="0" y="15.81"/>
+<element name="FREEPAD39" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="-2.54" y="15.81"/>
+<element name="FREEPAD40" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="0" y="13.27"/>
+<element name="FREEPAD41" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="-2.54" y="13.27"/>
+<element name="FREEPAD42" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="0" y="8.19"/>
+<element name="FREEPAD43" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="0" y="10.73"/>
+<element name="FREEPAD44" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="-2.54" y="31.05"/>
+<element name="FREEPAD45" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="0" y="31.05"/>
+<element name="FREEPAD46" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="-7.62" y="31.05"/>
+<element name="FREEPAD47" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="-5.08" y="31.05"/>
+<element name="FREEPAD48" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="2.54" y="13.27" rot="R180"/>
+<element name="FREEPAD49" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="2.54" y="15.81" rot="R180"/>
+<element name="FREEPAD50" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="2.54" y="18.35" rot="R180"/>
+<element name="FREEPAD51" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="7.62" y="20.89" rot="R180"/>
+<element name="FREEPAD52" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="5.08" y="20.89" rot="R180"/>
+<element name="FREEPAD53" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="2.54" y="20.89" rot="R180"/>
+<element name="FREEPAD54" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="7.62" y="23.43" rot="R180"/>
+<element name="FREEPAD55" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="5.08" y="23.43" rot="R180"/>
+<element name="FREEPAD56" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="2.54" y="23.43" rot="R180"/>
+<element name="FREEPAD57" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="2.54" y="28.51" rot="R180"/>
+<element name="FREEPAD58" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="7.62" y="28.51" rot="R180"/>
+<element name="FREEPAD59" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="5.08" y="28.51" rot="R180"/>
+<element name="FREEPAD60" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="2.54" y="5.65" rot="R180"/>
+<element name="FREEPAD61" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="2.54" y="8.19"/>
+<element name="FREEPAD62" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="2.54" y="10.73"/>
+<element name="FREEPAD63" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="5.08" y="31.05" rot="R180"/>
+<element name="FREEPAD64" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="7.62" y="31.05" rot="R180"/>
+<element name="FREEPAD65" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="2.54" y="31.05" rot="R180"/>
+<element name="FREEPAD66" library="common" package="FREEPAD_FREEPAD66" value="FREEPAD" x="5.94" y="26.3" rot="R270"/>
+<element name="FREEPAD67" library="common" package="FREEPAD_FREEPAD67" value="FREEPAD" x="-5.94" y="26.3" rot="R270"/>
+<element name="FREEPAD68" library="common" package="FREEPAD_FREEPAD67" value="FREEPAD" x="-1.98" y="26.3" rot="R270"/>
+<element name="FREEPAD69" library="common" package="FREEPAD_FREEPAD69" value="FREEPAD" x="1.98" y="26.3" rot="R270"/>
+<element name="FREEPAD70" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="-5.08" y="18.35"/>
+<element name="FREEPAD71" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="5.08" y="18.35"/>
+<element name="FREEPAD72" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="-5.08" y="13.27"/>
+<element name="FREEPAD73" library="common" package="FREEPAD_FREEPAD1" value="FREEPAD" x="5.08" y="13.27" rot="R180"/>
+<element name="FREEPAD74" library="common" package="FREEPAD_FREEPAD74" value="FREEPAD" x="0" y="-8"/>
+<element name="FREEPAD75" library="common" package="FREEPAD_FREEPAD74" value="FREEPAD" x="0" y="-8" rot="R180"/>
 </elements>
 <signals>
 <signal name="N$1">
-<wire layer="16" width="1.2" x1="96.736" y1="87.51" x2="97.306" y2="86.94"/>
+<wire x1="5.08" y1="3.11" x2="5.65" y2="2.54" width="1.2" layer="16"/>
 </signal>
 <signal name="N$2">
-<wire layer="16" width="1.2" x1="97.306" y1="86.94" x2="99.276" y2="86.94"/>
+<wire x1="5.65" y1="2.54" x2="7.62" y2="2.54" width="1.2" layer="16"/>
 </signal>
 <signal name="N$3">
-<wire layer="16" width="1.2" x1="96.736" y1="84.97" x2="97.306" y2="84.4"/>
+<wire x1="5.08" y1="0.57" x2="5.65" y2="0" width="1.2" layer="16"/>
 </signal>
 <signal name="N$4">
-<wire layer="16" width="1.2" x1="97.306" y1="84.4" x2="99.276" y2="84.4"/>
+<wire x1="5.65" y1="0" x2="7.62" y2="0" width="1.2" layer="16"/>
 </signal>
 <signal name="N$5">
-<wire layer="16" width="1.2" x1="96.736" y1="82.4" x2="97.276" y2="81.86"/>
+<wire x1="5.08" y1="-2" x2="5.62" y2="-2.54" width="1.2" layer="16"/>
 </signal>
 <signal name="N$6">
-<wire layer="16" width="1.2" x1="97.276" y1="81.86" x2="99.276" y2="81.86"/>
+<wire x1="5.62" y1="-2.54" x2="7.62" y2="-2.54" width="1.2" layer="16"/>
 </signal>
 <signal name="N$7">
-<wire layer="16" width="1.2" x1="96.736" y1="79.89" x2="97.306" y2="79.32"/>
+<wire x1="5.08" y1="-4.51" x2="5.65" y2="-5.08" width="1.2" layer="16"/>
 </signal>
 <signal name="N$8">
-<wire layer="16" width="1.2" x1="97.306" y1="79.32" x2="99.276" y2="79.32"/>
+<wire x1="5.65" y1="-5.08" x2="7.62" y2="-5.08" width="1.2" layer="16"/>
 </signal>
 <signal name="N$9">
-<wire layer="16" width="1.2" x1="96.736" y1="77.35" x2="97.306" y2="76.78"/>
+<wire x1="5.08" y1="-7.05" x2="5.65" y2="-7.62" width="1.2" layer="16"/>
 </signal>
 <signal name="N$10">
-<wire layer="16" width="1.2" x1="97.306" y1="76.78" x2="99.276" y2="76.78"/>
+<wire x1="5.65" y1="-7.62" x2="7.62" y2="-7.62" width="1.2" layer="16"/>
 </signal>
 <signal name="N$11">
-<wire layer="16" width="1.2" x1="86.006" y1="84.4" x2="86.576" y2="84.97"/>
+<wire x1="-5.65" y1="0" x2="-5.08" y2="0.57" width="1.2" layer="16"/>
 </signal>
 <signal name="N$12">
-<wire layer="16" width="1.2" x1="84.036" y1="84.4" x2="86.006" y2="84.4"/>
+<wire x1="-7.62" y1="0" x2="-5.65" y2="0" width="1.2" layer="16"/>
 </signal>
 <signal name="N$13">
-<wire layer="16" width="1.2" x1="86.006" y1="81.86" x2="86.576" y2="82.43"/>
+<wire x1="-5.65" y1="-2.54" x2="-5.08" y2="-1.97" width="1.2" layer="16"/>
 </signal>
 <signal name="N$14">
-<wire layer="16" width="1.2" x1="84.036" y1="81.86" x2="86.006" y2="81.86"/>
+<wire x1="-7.62" y1="-2.54" x2="-5.65" y2="-2.54" width="1.2" layer="16"/>
 </signal>
 <signal name="N$15">
-<wire layer="16" width="1.2" x1="86.006" y1="79.32" x2="86.576" y2="79.89"/>
+<wire x1="-5.65" y1="-5.08" x2="-5.08" y2="-4.51" width="1.2" layer="16"/>
 </signal>
 <signal name="N$16">
-<wire layer="16" width="1.2" x1="84.036" y1="79.32" x2="86.006" y2="79.32"/>
+<wire x1="-7.62" y1="-5.08" x2="-5.65" y2="-5.08" width="1.2" layer="16"/>
 </signal>
 <signal name="N$17">
-<wire layer="16" width="1.2" x1="86.006" y1="76.78" x2="86.576" y2="77.35"/>
+<wire x1="-5.65" y1="-7.62" x2="-5.08" y2="-7.05" width="1.2" layer="16"/>
 </signal>
 <signal name="N$18">
-<wire layer="16" width="1.2" x1="84.036" y1="76.78" x2="86.006" y2="76.78"/>
+<wire x1="-7.62" y1="-7.62" x2="-5.65" y2="-7.62" width="1.2" layer="16"/>
 </signal>
 </signals>
 </board>
