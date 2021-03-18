@@ -1,0 +1,19 @@
+Export log for : Atomic_V1.0__P-CAD-ASCII.Rep
+AddingPadStyle (Default)
+AddingPadStyle P:EX165Y165D1651
+AddingPadStyle P:RRX55Y55D331
+AddingPadStyle P:EX79Y79D791
+AddingPadStyle P:RRX47Y47D331
+AddingPadStyle P:SX47Y47D331
+AddingPadStyle P:EX71Y71D511
+AddingPadStyle P:RRX71Y71D511
+AddingPadStyle P:SX71Y71D511
+AddingPadStyle EF154X154MID1
+AddingPadStyle EF154X154MID2
+Adding ViaStyle (Default)
+Adding TextStyle (Default)
+Adding TextStyle T:H31W10
+Adding TextStyle T:H47W10
+Adding TextStyle T:H63W10
+ 
+EndLog
