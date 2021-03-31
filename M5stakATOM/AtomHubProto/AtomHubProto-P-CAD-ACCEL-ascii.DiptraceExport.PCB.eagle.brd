@@ -34,30 +34,30 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="2" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="5" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="ReferenceLC" color="13" fill="1" visible="no" active="yes"/>
-<layer number="50" name="ReferenceLS" color="12" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="ReferenceLC" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="ReferenceLS" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
@@ -212,7 +212,7 @@
 <wire x1="-18.027" y1="13.9" x2="-16.027" y2="13.9" width="0.2" layer="20"/>
 <wire x1="-18.027" y1="18.1" x2="-16.027" y2="18.1" width="0.2" layer="20"/>
 <wire x1="-18.027" y1="3" x2="-18.027" y2="13.9" width="0.2" layer="20"/>
-<text x="25.443" y="57.249" size="1.778" layer="51">0) Altium: create line (0,0/0,2) as zero origin
+<text x="25.443" y="57.249" size="1.778" layer="48">0) Altium: create line (0,0/0,2) as zero origin
 1) Altium Export ACCEL (P-Cad Ascii)
 2) Diptrace import
 3) Diptrace export as Eagle brd
@@ -220,7 +220,10 @@
 5) remove dimension line and the origin mark from 0)
 6) set gnd-plane to "GND"
 
-Atention: powerplug holes not correct...</text>
+Atention: powerplug holes not correct (milling is missing)</text>
+<text x="2.991" y="-2.931" size="1.778" layer="48">https://datasheet.lcsc.com/szlcsc/1912111437_XKB-Connectivity-DC-0440-2-5A-2-0_C381118.pdf</text>
+<text x="25.614" y="46.872" size="1.778" layer="48">Maximum hight of elektronic parts 18 mm (TOP).
+Max. hight on bottom side4 mm hole board. 7 mm at positions without mounting parts at the enclosure (see position on drawing).</text>
 </plain>
 <libraries>
 <library name="common">
@@ -1997,7 +2000,7 @@ Atention: powerplug holes not correct...</text>
 <element name="FREEPAD300" library="common" package="FREEPAD_FREEPAD279" value="FREEPAD" x="-3.225" y="11.75"/>
 <element name="FREEPAD301" library="common" package="FREEPAD_FREEPAD278" value="FREEPAD" x="-2.9" y="12.1"/>
 <element name="GROVE" library="common" package="GROVE" value="GPIO_Socket_4P" x="-8" y="1.8" rot="R270"/>
-<element name="DC-IN-TH_DC-0440-2.5A-2.0" library="common" package="DC-IN-TH_DC-0440-2.5A-2.0" value="DC-IN-TH_DC-0440-2.5A-2.0" x="6.97313125" y="10.2" rot="R90"/>
+<element name="DC-IN-TH_DC-0440-2.5A-2.0" library="common" package="DC-IN-TH_DC-0440-2.5A-2.0" value="XKB Connectivity DC-0440-2.5A-2.0" x="6.97313125" y="10.2" rot="R90"/>
 </elements>
 <signals>
 <signal name="S$1">
