@@ -60,6 +60,14 @@
 <layer number="50" name="ReferenceLS" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
@@ -69,6 +77,114 @@
 <layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Patch_Top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="110" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="111" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="IDFDebug" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="FRNTMAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="FRNTMAAT2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="top_silk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="134" name="silk_top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="135" name="silk_bottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="138" name="NEw" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="139" name="mtKeepout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="140" name="mbKeepout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="141" name="mtRestrict" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="142" name="mbRestrict" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="143" name="mvRestrict" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="DrillLegend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="147" name="mMeasures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="148" name="mDocument" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="149" name="mReference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="156" name="DXF0409-TOP" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="157" name="DXF0409-BOTTOM" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="166" name="AntennaArea" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="191" name="mNets" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="192" name="mBusses" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="193" name="mPins" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="194" name="mSymbols" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="195" name="mNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="196" name="mValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="218" name="218bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="219" name="219bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="220" name="220bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="221" name="221bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="222" name="222bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="223" name="223bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="224" name="224bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="OrgLBR" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="Accent" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -100,7 +216,6 @@
 <wire x1="-11.53" y1="65" x2="-8.99" y2="65" width="0.2" layer="21"/>
 <wire x1="-8.99" y1="29" x2="-8.99" y2="65" width="0.2" layer="21"/>
 <wire x1="-11.53" y1="29" x2="-11.53" y2="65" width="0.2" layer="21"/>
-<wire x1="12.027" y1="65" x2="18.027" y2="65" width="0.2" layer="21"/>
 <wire x1="12.027" y1="7" x2="18.027" y2="7" width="0.2" layer="21"/>
 <wire x1="9.044" y1="13" x2="11.584" y2="13" width="0.2" layer="21"/>
 <wire x1="-17.973" y1="27" x2="-11.973" y2="27" width="0.2" layer="21"/>
@@ -220,14 +335,20 @@ Atention: powerplug holes not correct (milling is missing)</text>
 <text x="2.991" y="-2.931" size="1.778" layer="48">https://datasheet.lcsc.com/szlcsc/1912111437_XKB-Connectivity-DC-0440-2-5A-2-0_C381118.pdf</text>
 <text x="25.614" y="46.872" size="1.778" layer="48">Maximum hight of elektronic parts 18 mm (TOP).
 Max. hight on bottom side4 mm hole board. 7 mm at positions without mounting parts at the enclosure (see position on drawing).</text>
+<rectangle x1="11.5" y1="13" x2="18" y2="65" layer="21"/>
+<dimension x1="18" y1="65.9" x2="18" y2="65" x3="22.6" y3="65.45" textsize="1.778" layer="21"/>
+<dimension x1="13.9" y1="70" x2="11.5" y2="65" x3="25.5" y3="67.5" textsize="1.778" layer="21" dtype="vertical"/>
+<rectangle x1="-18" y1="28.9" x2="-11.5" y2="65" layer="21"/>
+<dimension x1="-17.973" y1="27" x2="-17.973" y2="65" x3="-24.4" y3="46" textsize="1.778" layer="21" dtype="vertical"/>
+<dimension x1="-17" y1="2" x2="-17.973" y2="27" x3="-24.4" y3="14.5" textsize="1.778" layer="21" dtype="vertical"/>
+<wire x1="12.027" y1="65" x2="18.027" y2="65" width="0.2" layer="21"/>
+<dimension x1="18.027" y1="65" x2="18.027" y2="7" x3="24.4" y3="36" textsize="1.778" layer="21"/>
 </plain>
 <libraries>
 <library name="common">
 <packages>
 <package name="FREEPAD">
 <pad name="1" x="0" y="0" drill="0.85" diameter="1.4" stop="no" thermals="no"/>
-<circle x="0" y="0" radius="0" width="0" layer="30"/>
-<circle x="0" y="0" radius="0" width="0" layer="29"/>
 </package>
 <package name="FREEPAD_FREEPAD217">
 <pad name="1" x="0" y="0" drill="0.85" diameter="1.2" stop="no" thermals="no"/>
@@ -353,6 +474,8 @@ Max. hight on bottom side4 mm hole board. 7 mm at positions without mounting par
 </polygon>
 </package>
 <package name="FREEPAD_FREEPAD224">
+<rectangle x1="-0.6" y1="-0.8" x2="0.6" y2="0.8" layer="30"/>
+<rectangle x1="-0.6" y1="-0.8" x2="0.6" y2="0.8" layer="29"/>
 <pad name="1" x="0" y="0" drill="0.85" diameter="1.2" shape="square" stop="no" thermals="no"/>
 <polygon width="0.002" layer="1">
 <vertex x="-0.599" y="0.799"/>
@@ -366,13 +489,9 @@ Max. hight on bottom side4 mm hole board. 7 mm at positions without mounting par
 <vertex x="0.599" y="-0.799"/>
 <vertex x="-0.599" y="-0.799"/>
 </polygon>
-<rectangle x1="-0.6" y1="-0.8" x2="0.6" y2="0.8" layer="30"/>
-<rectangle x1="-0.6" y1="-0.8" x2="0.6" y2="0.8" layer="29"/>
 </package>
 <package name="FREEPAD_FREEPAD226">
 <pad name="1" x="0" y="0" drill="2.1" diameter="2.1" stop="no" thermals="no"/>
-<circle x="0" y="0" radius="0" width="0" layer="30"/>
-<circle x="0" y="0" radius="0" width="0" layer="29"/>
 </package>
 <package name="FREEPAD_FREEPAD227">
 <pad name="1" x="0" y="0" drill="0.85" diameter="1.2" stop="no" thermals="no"/>
@@ -554,6 +673,8 @@ Max. hight on bottom side4 mm hole board. 7 mm at positions without mounting par
 </polygon>
 </package>
 <package name="FREEPAD_FREEPAD228">
+<rectangle x1="-0.8" y1="-0.6" x2="0.8" y2="0.6" layer="30"/>
+<rectangle x1="-0.8" y1="-0.6" x2="0.8" y2="0.6" layer="29"/>
 <pad name="1" x="0" y="0" drill="0.85" diameter="1.2" shape="square" stop="no" thermals="no"/>
 <polygon width="0.002" layer="1">
 <vertex x="-0.799" y="0.599"/>
@@ -567,8 +688,6 @@ Max. hight on bottom side4 mm hole board. 7 mm at positions without mounting par
 <vertex x="0.799" y="-0.599"/>
 <vertex x="-0.799" y="-0.599"/>
 </polygon>
-<rectangle x1="-0.8" y1="-0.6" x2="0.8" y2="0.6" layer="30"/>
-<rectangle x1="-0.8" y1="-0.6" x2="0.8" y2="0.6" layer="29"/>
 </package>
 <package name="FREEPAD_FREEPAD235">
 <pad name="1" x="0" y="0" drill="0.85" diameter="1.2" stop="no" thermals="no"/>
@@ -695,281 +814,24 @@ Max. hight on bottom side4 mm hole board. 7 mm at positions without mounting par
 </package>
 <package name="FREEPAD_FREEPAD246">
 <pad name="1" x="0" y="0" drill="1.3" diameter="2" stop="no" thermals="no"/>
-<circle x="0" y="0" radius="0" width="0" layer="30"/>
-<circle x="0" y="0" radius="0" width="0" layer="29"/>
 </package>
 <package name="FREEPAD_FREEPAD272">
-<pad name="1" x="0" y="0" drill="0" stop="no" thermals="no"/>
-<circle x="0" y="0" radius="0" width="0" layer="30"/>
-<circle x="0" y="0" radius="0" width="0" layer="29"/>
+<pad name="1" x="0" y="0" drill="1.3" stop="no" thermals="no"/>
 </package>
 <package name="FREEPAD_FREEPAD274">
-<smd name="1" x="0" y="0" dx="1.4" dy="1.4" layer="1" stop="no" thermals="no" cream="no"/>
 <rectangle x1="-0.7" y1="-0.7" x2="0.7" y2="0.7" layer="29"/>
 <rectangle x1="-0.7" y1="-0.7" x2="0.7" y2="0.7" layer="31"/>
+<smd name="1" x="0" y="0" dx="1.4" dy="1.4" layer="1" stop="no" thermals="no" cream="no"/>
 </package>
 <package name="FREEPAD_FREEPAD278">
-<smd name="1" x="0" y="0" dx="0.5" dy="1" layer="16" stop="no" thermals="no" cream="no"/>
 <rectangle x1="-0.25" y1="-0.5" x2="0.25" y2="0.5" layer="30"/>
 <rectangle x1="-0.25" y1="-0.5" x2="0.25" y2="0.5" layer="32"/>
+<smd name="1" x="0" y="0" dx="0.5" dy="1" layer="16" stop="no" thermals="no" cream="no"/>
 </package>
 <package name="FREEPAD_FREEPAD279">
-<smd name="1" x="0" y="0" dx="0.4" dy="0.3" layer="16" stop="no" thermals="no" cream="no"/>
 <rectangle x1="-0.2" y1="-0.15" x2="0.2" y2="0.15" layer="30"/>
 <rectangle x1="-0.2" y1="-0.15" x2="0.2" y2="0.15" layer="32"/>
-</package>
-<package name="GROVE">
-<pad name="1" x="-6.2" y="3" drill="0.65" diameter="1.4" rot="R180" stop="no" thermals="no"/>
-<polygon width="0.002" layer="1">
-<vertex x="-5.501" y="2.65"/>
-<vertex x="-5.513" y="2.56"/>
-<vertex x="-5.548" y="2.476"/>
-<vertex x="-5.603" y="2.403"/>
-<vertex x="-5.676" y="2.348"/>
-<vertex x="-5.76" y="2.313"/>
-<vertex x="-5.85" y="2.301"/>
-<vertex x="-6.55" y="2.301"/>
-<vertex x="-6.64" y="2.313"/>
-<vertex x="-6.724" y="2.348"/>
-<vertex x="-6.797" y="2.403"/>
-<vertex x="-6.852" y="2.476"/>
-<vertex x="-6.887" y="2.56"/>
-<vertex x="-6.899" y="2.65"/>
-<vertex x="-6.899" y="3.35"/>
-<vertex x="-6.887" y="3.44"/>
-<vertex x="-6.852" y="3.524"/>
-<vertex x="-6.797" y="3.597"/>
-<vertex x="-6.724" y="3.652"/>
-<vertex x="-6.64" y="3.687"/>
-<vertex x="-6.55" y="3.699"/>
-<vertex x="-5.85" y="3.699"/>
-<vertex x="-5.76" y="3.687"/>
-<vertex x="-5.676" y="3.652"/>
-<vertex x="-5.603" y="3.597"/>
-<vertex x="-5.548" y="3.524"/>
-<vertex x="-5.513" y="3.44"/>
-<vertex x="-5.501" y="3.349"/>
-</polygon>
-<polygon width="0.002" layer="16">
-<vertex x="-5.501" y="2.65"/>
-<vertex x="-5.513" y="2.56"/>
-<vertex x="-5.548" y="2.476"/>
-<vertex x="-5.603" y="2.403"/>
-<vertex x="-5.676" y="2.348"/>
-<vertex x="-5.76" y="2.313"/>
-<vertex x="-5.85" y="2.301"/>
-<vertex x="-6.55" y="2.301"/>
-<vertex x="-6.64" y="2.313"/>
-<vertex x="-6.724" y="2.348"/>
-<vertex x="-6.797" y="2.403"/>
-<vertex x="-6.852" y="2.476"/>
-<vertex x="-6.887" y="2.56"/>
-<vertex x="-6.899" y="2.65"/>
-<vertex x="-6.899" y="3.35"/>
-<vertex x="-6.887" y="3.44"/>
-<vertex x="-6.852" y="3.524"/>
-<vertex x="-6.797" y="3.597"/>
-<vertex x="-6.724" y="3.652"/>
-<vertex x="-6.64" y="3.687"/>
-<vertex x="-6.55" y="3.699"/>
-<vertex x="-5.85" y="3.699"/>
-<vertex x="-5.76" y="3.687"/>
-<vertex x="-5.676" y="3.652"/>
-<vertex x="-5.603" y="3.597"/>
-<vertex x="-5.548" y="3.524"/>
-<vertex x="-5.513" y="3.44"/>
-<vertex x="-5.501" y="3.349"/>
-</polygon>
-<polygon width="0.002" layer="30">
-<vertex x="-5.45" y="2.625"/>
-<vertex x="-5.463" y="2.528"/>
-<vertex x="-5.5" y="2.438"/>
-<vertex x="-5.56" y="2.36"/>
-<vertex x="-5.638" y="2.3"/>
-<vertex x="-5.728" y="2.263"/>
-<vertex x="-5.825" y="2.25"/>
-<vertex x="-6.575" y="2.25"/>
-<vertex x="-6.672" y="2.263"/>
-<vertex x="-6.762" y="2.3"/>
-<vertex x="-6.84" y="2.36"/>
-<vertex x="-6.9" y="2.438"/>
-<vertex x="-6.937" y="2.528"/>
-<vertex x="-6.95" y="2.625"/>
-<vertex x="-6.95" y="3.375"/>
-<vertex x="-6.937" y="3.472"/>
-<vertex x="-6.9" y="3.562"/>
-<vertex x="-6.84" y="3.64"/>
-<vertex x="-6.762" y="3.7"/>
-<vertex x="-6.672" y="3.737"/>
-<vertex x="-6.575" y="3.75"/>
-<vertex x="-5.825" y="3.75"/>
-<vertex x="-5.728" y="3.737"/>
-<vertex x="-5.638" y="3.7"/>
-<vertex x="-5.56" y="3.64"/>
-<vertex x="-5.5" y="3.562"/>
-<vertex x="-5.463" y="3.472"/>
-<vertex x="-5.45" y="3.375"/>
-</polygon>
-<polygon width="0.002" layer="29">
-<vertex x="-5.45" y="2.625"/>
-<vertex x="-5.463" y="2.528"/>
-<vertex x="-5.5" y="2.438"/>
-<vertex x="-5.56" y="2.36"/>
-<vertex x="-5.638" y="2.3"/>
-<vertex x="-5.728" y="2.263"/>
-<vertex x="-5.825" y="2.25"/>
-<vertex x="-6.575" y="2.25"/>
-<vertex x="-6.672" y="2.263"/>
-<vertex x="-6.762" y="2.3"/>
-<vertex x="-6.84" y="2.36"/>
-<vertex x="-6.9" y="2.438"/>
-<vertex x="-6.937" y="2.528"/>
-<vertex x="-6.95" y="2.625"/>
-<vertex x="-6.95" y="3.375"/>
-<vertex x="-6.937" y="3.472"/>
-<vertex x="-6.9" y="3.562"/>
-<vertex x="-6.84" y="3.64"/>
-<vertex x="-6.762" y="3.7"/>
-<vertex x="-6.672" y="3.737"/>
-<vertex x="-6.575" y="3.75"/>
-<vertex x="-5.825" y="3.75"/>
-<vertex x="-5.728" y="3.737"/>
-<vertex x="-5.638" y="3.7"/>
-<vertex x="-5.56" y="3.64"/>
-<vertex x="-5.5" y="3.562"/>
-<vertex x="-5.463" y="3.472"/>
-<vertex x="-5.45" y="3.375"/>
-</polygon>
-<pad name="2" x="-6.2" y="1" drill="0.7" diameter="1.4" rot="R180" stop="no" thermals="no"/>
-<polygon width="0.002" layer="1">
-<vertex x="-5.501" y="0.65"/>
-<vertex x="-5.513" y="0.56"/>
-<vertex x="-5.548" y="0.476"/>
-<vertex x="-5.603" y="0.403"/>
-<vertex x="-5.676" y="0.348"/>
-<vertex x="-5.76" y="0.313"/>
-<vertex x="-5.85" y="0.301"/>
-<vertex x="-6.55" y="0.301"/>
-<vertex x="-6.64" y="0.313"/>
-<vertex x="-6.724" y="0.348"/>
-<vertex x="-6.797" y="0.403"/>
-<vertex x="-6.852" y="0.476"/>
-<vertex x="-6.887" y="0.56"/>
-<vertex x="-6.899" y="0.651"/>
-<vertex x="-6.899" y="1.35"/>
-<vertex x="-6.887" y="1.44"/>
-<vertex x="-6.852" y="1.524"/>
-<vertex x="-6.797" y="1.597"/>
-<vertex x="-6.724" y="1.652"/>
-<vertex x="-6.64" y="1.687"/>
-<vertex x="-6.55" y="1.699"/>
-<vertex x="-5.85" y="1.699"/>
-<vertex x="-5.76" y="1.687"/>
-<vertex x="-5.676" y="1.652"/>
-<vertex x="-5.603" y="1.597"/>
-<vertex x="-5.548" y="1.524"/>
-<vertex x="-5.513" y="1.44"/>
-<vertex x="-5.501" y="1.35"/>
-</polygon>
-<polygon width="0.002" layer="16">
-<vertex x="-5.501" y="0.65"/>
-<vertex x="-5.513" y="0.56"/>
-<vertex x="-5.548" y="0.476"/>
-<vertex x="-5.603" y="0.403"/>
-<vertex x="-5.676" y="0.348"/>
-<vertex x="-5.76" y="0.313"/>
-<vertex x="-5.85" y="0.301"/>
-<vertex x="-6.55" y="0.301"/>
-<vertex x="-6.64" y="0.313"/>
-<vertex x="-6.724" y="0.348"/>
-<vertex x="-6.797" y="0.403"/>
-<vertex x="-6.852" y="0.476"/>
-<vertex x="-6.887" y="0.56"/>
-<vertex x="-6.899" y="0.651"/>
-<vertex x="-6.899" y="1.35"/>
-<vertex x="-6.887" y="1.44"/>
-<vertex x="-6.852" y="1.524"/>
-<vertex x="-6.797" y="1.597"/>
-<vertex x="-6.724" y="1.652"/>
-<vertex x="-6.64" y="1.687"/>
-<vertex x="-6.55" y="1.699"/>
-<vertex x="-5.85" y="1.699"/>
-<vertex x="-5.76" y="1.687"/>
-<vertex x="-5.676" y="1.652"/>
-<vertex x="-5.603" y="1.597"/>
-<vertex x="-5.548" y="1.524"/>
-<vertex x="-5.513" y="1.44"/>
-<vertex x="-5.501" y="1.35"/>
-</polygon>
-<polygon width="0.002" layer="30">
-<vertex x="-5.45" y="0.625"/>
-<vertex x="-5.463" y="0.528"/>
-<vertex x="-5.5" y="0.437"/>
-<vertex x="-5.56" y="0.36"/>
-<vertex x="-5.638" y="0.3"/>
-<vertex x="-5.728" y="0.263"/>
-<vertex x="-5.825" y="0.25"/>
-<vertex x="-6.575" y="0.25"/>
-<vertex x="-6.672" y="0.263"/>
-<vertex x="-6.762" y="0.3"/>
-<vertex x="-6.84" y="0.36"/>
-<vertex x="-6.9" y="0.438"/>
-<vertex x="-6.937" y="0.528"/>
-<vertex x="-6.95" y="0.625"/>
-<vertex x="-6.95" y="1.375"/>
-<vertex x="-6.937" y="1.472"/>
-<vertex x="-6.9" y="1.562"/>
-<vertex x="-6.84" y="1.64"/>
-<vertex x="-6.762" y="1.7"/>
-<vertex x="-6.672" y="1.737"/>
-<vertex x="-6.575" y="1.75"/>
-<vertex x="-5.825" y="1.75"/>
-<vertex x="-5.728" y="1.737"/>
-<vertex x="-5.638" y="1.7"/>
-<vertex x="-5.56" y="1.64"/>
-<vertex x="-5.5" y="1.562"/>
-<vertex x="-5.463" y="1.472"/>
-<vertex x="-5.45" y="1.375"/>
-</polygon>
-<polygon width="0.002" layer="29">
-<vertex x="-5.45" y="0.625"/>
-<vertex x="-5.463" y="0.528"/>
-<vertex x="-5.5" y="0.437"/>
-<vertex x="-5.56" y="0.36"/>
-<vertex x="-5.638" y="0.3"/>
-<vertex x="-5.728" y="0.263"/>
-<vertex x="-5.825" y="0.25"/>
-<vertex x="-6.575" y="0.25"/>
-<vertex x="-6.672" y="0.263"/>
-<vertex x="-6.762" y="0.3"/>
-<vertex x="-6.84" y="0.36"/>
-<vertex x="-6.9" y="0.438"/>
-<vertex x="-6.937" y="0.528"/>
-<vertex x="-6.95" y="0.625"/>
-<vertex x="-6.95" y="1.375"/>
-<vertex x="-6.937" y="1.472"/>
-<vertex x="-6.9" y="1.562"/>
-<vertex x="-6.84" y="1.64"/>
-<vertex x="-6.762" y="1.7"/>
-<vertex x="-6.672" y="1.737"/>
-<vertex x="-6.575" y="1.75"/>
-<vertex x="-5.825" y="1.75"/>
-<vertex x="-5.728" y="1.737"/>
-<vertex x="-5.638" y="1.7"/>
-<vertex x="-5.56" y="1.64"/>
-<vertex x="-5.5" y="1.562"/>
-<vertex x="-5.463" y="1.472"/>
-<vertex x="-5.45" y="1.375"/>
-</polygon>
-<pad name="3" x="-6.2" y="-3" drill="0.65" diameter="1.4" rot="R180" thermals="no"/>
-<pad name="4" x="-6.2" y="-1" drill="0.7" diameter="1.4" shape="square" rot="R180" thermals="no"/>
-<wire x1="-1.2" y1="-3" x2="0" y2="-3" width="0.127" layer="21"/>
-<wire x1="-1.2" y1="3" x2="0" y2="3" width="0.127" layer="21"/>
-<wire x1="-7.47" y1="-5" x2="1.8" y2="-5" width="0.127" layer="21"/>
-<wire x1="-7.47" y1="5" x2="1.8" y2="5" width="0.127" layer="21"/>
-<wire x1="-7.47" y1="5" x2="-7.47" y2="-5" width="0.127" layer="21"/>
-<wire x1="1.8" y1="5" x2="1.8" y2="-5" width="0.127" layer="21"/>
-<wire x1="0" y1="3" x2="0" y2="-3" width="0.127" layer="21"/>
+<smd name="1" x="0" y="0" dx="0.4" dy="0.3" layer="16" stop="no" thermals="no" cream="no"/>
 </package>
 <package name="DC-IN-TH_DC-0440-2.5A-2.0">
 <wire x1="1.3" y1="-3.412" x2="1.3" y2="-1.888" width="0.254" layer="21"/>
@@ -1527,6 +1389,45 @@ Max. hight on bottom side4 mm hole board. 7 mm at positions without mounting par
 <wire x1="0.4" y1="4.6" x2="0.4" y2="3.9" width="0.127" layer="46" curve="-186.722642"/>
 <hole x="-6.2" y="-1.04586875" drill="1.8"/>
 </package>
+<package name="GROVE-NEU">
+<pad name="1" x="-6.2" y="-3" drill="0.7" diameter="1.3" shape="square" rot="R270"/>
+<pad name="2" x="-6.2" y="-1" drill="0.7" diameter="1.3" shape="octagon" rot="R270"/>
+<pad name="3" x="-6.2" y="1" drill="0.7" diameter="1.3" shape="octagon" rot="R270"/>
+<pad name="4" x="-6.2" y="3" drill="0.7" diameter="1.3" shape="octagon" rot="R270"/>
+<text x="-4.93" y="7.16" size="1.016" layer="25" rot="R180" align="bottom-center">&gt;NAME</text>
+<text x="-7.47" y="-6.175" size="1.016" layer="27" rot="R180" align="bottom-right">&gt;VALUE</text>
+<wire x1="1.75" y1="4.95" x2="1.75" y2="-4.95" width="0.1524" layer="21"/>
+<wire x1="1.75" y1="-4.95" x2="-7.55" y2="-4.95" width="0.1524" layer="21"/>
+<wire x1="-7.55" y1="-4.95" x2="-7.55" y2="-3.95" width="0.1524" layer="21"/>
+<wire x1="-7.55" y1="-3.95" x2="-5.95" y2="-3.95" width="0.1524" layer="21"/>
+<wire x1="-5.95" y1="3.95" x2="-7.55" y2="3.95" width="0.1524" layer="21"/>
+<wire x1="-7.55" y1="3.95" x2="-7.55" y2="4.95" width="0.1524" layer="21"/>
+<wire x1="-7.55" y1="4.95" x2="1.75" y2="4.95" width="0.1524" layer="21"/>
+<wire x1="1.75" y1="4.95" x2="1.75" y2="1.8" width="0.1524" layer="51"/>
+<wire x1="1.75" y1="1.8" x2="1.75" y2="-1.8" width="0.1524" layer="51"/>
+<wire x1="1.75" y1="-1.8" x2="1.77" y2="-4.95" width="0.1524" layer="51"/>
+<wire x1="1.77" y1="-4.95" x2="-7.55" y2="-4.95" width="0.1524" layer="51"/>
+<wire x1="-7.55" y1="-4.95" x2="-7.55" y2="-3.95" width="0.1524" layer="51"/>
+<wire x1="-7.55" y1="-3.95" x2="-5.95" y2="-3.95" width="0.1524" layer="51"/>
+<wire x1="-5.95" y1="-3.95" x2="-5.95" y2="3.95" width="0.1524" layer="51"/>
+<wire x1="-5.95" y1="3.95" x2="-7.55" y2="3.95" width="0.1524" layer="51"/>
+<wire x1="-7.55" y1="3.95" x2="-7.55" y2="4.95" width="0.1524" layer="51"/>
+<wire x1="-7.55" y1="4.95" x2="1.75" y2="4.95" width="0.1524" layer="51"/>
+<wire x1="-4.2" y1="-1.8" x2="1.75" y2="-1.8" width="0.1524" layer="51"/>
+<wire x1="-4.2" y1="1.8" x2="1.75" y2="1.8" width="0.1524" layer="51"/>
+<wire x1="-4.2" y1="1.8" x2="-4.2" y2="-1.8" width="0.1524" layer="51"/>
+<rectangle x1="-6.45" y1="-3.25" x2="-5.95" y2="-2.75" layer="51" rot="R270"/>
+<rectangle x1="-6.45" y1="-1.25" x2="-5.95" y2="-0.75" layer="51" rot="R270"/>
+<rectangle x1="-2.8" y1="-2.65" x2="-2.3" y2="0.65" layer="51" rot="R270"/>
+<rectangle x1="-6.45" y1="0.75" x2="-5.95" y2="1.25" layer="51" rot="R270"/>
+<rectangle x1="-2.8" y1="-0.65" x2="-2.3" y2="2.65" layer="51" rot="R270"/>
+<rectangle x1="-6.45" y1="2.75" x2="-5.95" y2="3.25" layer="51" rot="R270"/>
+<polygon width="0.1524" layer="51">
+<vertex x="-0.5" y="-3"/>
+<vertex x="0" y="-2.7"/>
+<vertex x="0" y="-3.3"/>
+</polygon>
+</package>
 </packages>
 </library>
 </libraries>
@@ -1927,10 +1828,10 @@ Max. hight on bottom side4 mm hole board. 7 mm at positions without mounting par
 <element name="FREEPAD218" library="common" package="FREEPAD_FREEPAD217" value="FREEPAD" x="-15.593" y="9.46" rot="R180"/>
 <element name="FREEPAD219" library="common" package="FREEPAD_FREEPAD217" value="FREEPAD" x="-0.353" y="4.38"/>
 <element name="FREEPAD220" library="common" package="FREEPAD_FREEPAD217" value="FREEPAD" x="-0.353" y="6.92"/>
-<element name="FREEPAD221" library="common" package="FREEPAD_FREEPAD217" value="FREEPAD" x="-0.353" y="9.46"/>
+<element name="FREEPAD221" library="common" package="FREEPAD_FREEPAD217" value="FREEPAD" x="-0.353" y="9.46" locked="yes"/>
 <element name="FREEPAD222" library="common" package="FREEPAD_FREEPAD217" value="FREEPAD" x="-0.353" y="12"/>
 <element name="FREEPAD223" library="common" package="FREEPAD_FREEPAD217" value="FREEPAD" x="-0.353" y="14.54"/>
-<element name="FREEPAD224" library="common" package="FREEPAD_FREEPAD224" value="FREEPAD" x="-15.593" y="6.92" rot="R180"/>
+<element name="FREEPAD224" library="common" package="FREEPAD_FREEPAD224" value="FREEPAD" x="-15.593" y="6.92" locked="yes" rot="R180"/>
 <element name="FREEPAD225" library="common" package="FREEPAD_FREEPAD217" value="FREEPAD" x="-15.593" y="4.38" rot="R180"/>
 <element name="FREEPAD226" library="common" package="FREEPAD_FREEPAD226" value="FREEPAD" x="-7.973" y="12" rot="R90"/>
 <element name="FREEPAD227" library="common" package="FREEPAD_FREEPAD227" value="FREEPAD" x="8.267" y="66.499990625" rot="R180"/>
@@ -2008,8 +1909,8 @@ Max. hight on bottom side4 mm hole board. 7 mm at positions without mounting par
 <element name="FREEPAD299" library="common" package="FREEPAD_FREEPAD279" value="FREEPAD" x="-3.623" y="12.45" rot="R180"/>
 <element name="FREEPAD300" library="common" package="FREEPAD_FREEPAD279" value="FREEPAD" x="-3.198" y="11.75"/>
 <element name="FREEPAD301" library="common" package="FREEPAD_FREEPAD278" value="FREEPAD" x="-2.873" y="12.1"/>
-<element name="GROVE" library="common" package="GROVE" value="GPIO_Socket_4P" x="-7.973" y="1.8" rot="R270"/>
 <element name="DC-IN-TH_DC-0440-2.5A-2.0" library="common" package="DC-IN-TH_DC-0440-2.5A-2.0" value="XKB Connectivity DC-0440-2.5A-2.0" x="7.00013125" y="10.2" locked="yes" rot="R90"/>
+<element name="E$1" library="common" package="GROVE-NEU" value="" x="-7.973" y="1.8" locked="yes" rot="R270"/>
 </elements>
 <signals>
 <signal name="S$1">
@@ -2018,7 +1919,6 @@ Max. hight on bottom side4 mm hole board. 7 mm at positions without mounting par
 <signal name="5V">
 <contactref element="FREEPAD224" pad="1"/>
 <contactref element="FREEPAD234" pad="1"/>
-<contactref element="GROVE" pad="4"/>
 <wire x1="-15.593" y1="6.92" x2="-14.573" y2="6.92" width="1.2" layer="1"/>
 <wire x1="-14.573" y1="6.92" x2="-11.9406" y2="9.5524" width="1.2" layer="1"/>
 <wire x1="-11.9406" y1="9.5524" x2="-11.9406" y2="12.3324" width="1.2" layer="1"/>
@@ -2033,7 +1933,6 @@ Max. hight on bottom side4 mm hole board. 7 mm at positions without mounting par
 <contactref element="FREEPAD233" pad="1"/>
 <contactref element="FREEPAD274" pad="1"/>
 <contactref element="FREEPAD277" pad="1"/>
-<contactref element="GROVE" pad="3"/>
 <wire x1="-15.593" y1="4.38" x2="-13.593" y2="4.38" width="1.6" layer="16"/>
 <wire x1="-13.593" y1="4.38" x2="-10.973" y2="7" width="1.6" layer="16"/>
 <wire x1="-10.973" y1="7" x2="-10.973" y2="8" width="1.6" layer="16"/>
@@ -2045,6 +1944,7 @@ Max. hight on bottom side4 mm hole board. 7 mm at positions without mounting par
 <wire x1="-15.593" y1="4.38" x2="-13.593" y2="4.38" width="1.6" layer="1"/>
 <wire x1="-13.593" y1="4.38" x2="-10.973" y2="7" width="1.6" layer="1"/>
 <wire x1="-10.973" y1="7" x2="-10.973" y2="8" width="1.6" layer="1"/>
+<wire x1="-3.773" y1="16.5" x2="3.627" y2="10.2" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="SCL">
 <contactref element="FREEPAD217" pad="1"/>
