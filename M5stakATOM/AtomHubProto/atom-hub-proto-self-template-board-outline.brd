@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.353" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -255,6 +255,9 @@
 <wire x1="-20" y1="26.5" x2="-19" y2="26.5" width="0" layer="43"/>
 <wire x1="-20" y1="49.75" x2="-19" y2="49.75" width="0" layer="43"/>
 <wire x1="-19" y1="49.75" x2="-19" y2="26.5" width="0" layer="43"/>
+<dimension x1="-19" y1="26.5" x2="-18" y2="65.9" x3="-24.357" y3="46.2" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="13.9" y1="2" x2="-19" y2="49.75" x3="-28.24" y3="25.875" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="-19" y1="26.5" x2="-19" y2="49.75" x3="-34.241" y3="38.125" textsize="1.778" layer="47"/>
 </plain>
 <libraries>
 <library name="con-lstb">
@@ -599,6 +602,18 @@ einem neuen Namen ab.
 </signal>
 <signal name="G19">
 <via x="-0.353" y="9.46" extent="1-16" drill="1" shape="octagon"/>
+</signal>
+<signal name="N$2">
+<via x="-4.973" y="8" extent="1-16" drill="0.7" shape="square"/>
+</signal>
+<signal name="N$3">
+<via x="-6.973" y="8" extent="1-16" drill="0.7" shape="square"/>
+</signal>
+<signal name="N$4">
+<via x="-8.973" y="8" extent="1-16" drill="0.7" shape="square"/>
+</signal>
+<signal name="N$5">
+<via x="-10.973" y="8" extent="1-16" drill="0.7" shape="square"/>
 </signal>
 </signals>
 </board>

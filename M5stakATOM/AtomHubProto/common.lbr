@@ -1569,7 +1569,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="GROVE">
+<deviceset name="GROVE" prefix="X">
 <gates>
 <gate name="G$1" symbol="4-PIN" x="-5.08" y="12.7"/>
 </gates>
